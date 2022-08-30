@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <button type="button" onclick="myFunction()"> Lets Roll</button>
+
+    <script>
+    
+        function myFunction() {
+            var catergories = ["Best Health Solution",
+                "Best Agricultural Solution",
+                "Best Educational Solution",
+                "Best Gaming Solution",
+                "Best Innovative Solution",
+                "Best Retails solution"];
+            var catergory = catergories[Math.floor(Math.random() * catergories.length)];
+            document.write('MTN App of the year 2022 Winner Is: ' + catergory);
+        }
+    </script>
+
+</body>
+
+</html>
